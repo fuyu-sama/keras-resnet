@@ -1,12 +1,11 @@
 import os.path
 
 import click
-import keras
-import keras.preprocessing.image
 import numpy
 import pkg_resources
 import sklearn.model_selection
 import tensorflow
+from tensorflow import keras
 
 import keras_resnet.metrics
 import keras_resnet.models

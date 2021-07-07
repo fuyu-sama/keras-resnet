@@ -7,8 +7,7 @@ keras_resnet.blocks._3d
 This module implements a number of popular three-dimensional residual blocks.
 """
 
-import keras.layers
-import keras.regularizers
+from tensorflow import keras
 
 import keras_resnet.layers
 

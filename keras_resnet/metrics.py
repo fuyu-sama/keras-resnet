@@ -1,5 +1,4 @@
-import keras.metrics
-
+from tensorflow import keras
 
 def top_1_categorical_error(y_true, y_pred):
     return 1.0 - keras.metrics.top_k_categorical_accuracy(y_true, y_pred, 1)

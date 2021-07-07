@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 import keras_resnet.models
-import keras
+from tensorflow import keras
 
 import h5py
 import argparse
